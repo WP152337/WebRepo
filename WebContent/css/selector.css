@@ -1,0 +1,13 @@
+*{
+    text-align: center;
+    color: blue;
+}
+#tt{
+    font-size: 50px;
+    background-color: yellow;
+    border: blue 2px solid;
+}
+#singer{
+    text-align: right;
+    color: pink;
+}

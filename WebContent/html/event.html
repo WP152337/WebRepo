@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .bgyellow{background-color: yellow}
+        .bgblue{background-color: blue}
+        .bgpink{background-color: pink}
+        .border{border : 3px solid red}
+    </style>
+    <script src = "../js/event.js"></script>
+</head>
+<body onload="alert('웹페이지 로딩됨')">
+<div id="container">
+    <input type="radio" onclick="changecolor('bgyellow')">노란색
+    <input type="radio" onclick="changecolor('bgblue')">파랑색
+    <input type="radio" onclick="changecolor('bgpink')">핑크색
+    <br>
+    <input type="text" id="word" onchange="toUpperCase(this)">
+    <div id="box" onmouseover="addBorder(this)" onmouseout="removeBorder(this)">마우스</div>
+</div>
+</body>
+</html>

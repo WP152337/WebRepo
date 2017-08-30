@@ -1,0 +1,10 @@
+#content{
+    background-color: green;
+    border: solid green;
+}
+ul li {
+    display: inline;
+    margin: 5px;
+    font-weight: bold;
+    color: yellow;
+}
