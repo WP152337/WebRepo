@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="../css/profile.css" rel="stylesheet"/>
+    <title>Simple Blog</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light fixed top" id = "mainnav">
+    <a class="navbar-brand" href="#">SeongMin's blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" onmouseover="menu_over(this)" onmouseout="menu_out(this)">
+                <a class="nav-link" href="#firstsection">About me <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" onmouseover="menu_over(this)" onmouseout="menu_out(this)">
+                <a class="nav-link" href="#secondsection">Robotics</a>
+            </li>
+            <li class="nav-item" onmouseover="menu_over(this)" onmouseout="menu_out(this)">
+                <a class="nav-link" href="#thirdsection">Laboratory</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0" id = "loginform">
+            <input class="form-control mr-sm-2" type="text" placeholder="Id" aria-label="ID" id ="id" required>
+            <input class="form-control mr-sm-2" type="text" placeholder="Password" aria-label="PWD" id ="PWD" required>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">sign in</button>
+            <a href="signup.html" class="btn btn-outline-success my-2 my-sm-0">sign up</a>
+        </form>
+    </div>
+</nav>
+<div class="profile-Wrapper">
+    <div class="container-fluid" id ="firstsection">
+        <h1>ABOUT ME</h1>
+        <div class="profile">
+            <div class="wrap">
+                <div class="profile-main" >
+                        <hr class="light">
+                        <h4>황성민</h4>
+                        <hr>
+                    <h5><strong>Identification</strong></h5>
+                        <p>Student</p>
+                        <hr>
+                    <h5><strong>School</strong></h5>
+                        <p>Korea Digital Media High School</p>
+                        <hr>
+                    <h5><strong>Interests</strong></h5>
+                        <p>Robotics</p>
+                        <p>Soccer</p>
+                        <hr>
+                    <h5><strong>School Club</strong></h5>
+                        <p>ROTC</p>
+                        <hr class="light">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <a href="#secondsection" class="scroll">About Robotics</a>
+</div>
+
+<div class="Robotics-wrapper">
+    <div class="container-fluid" id="secondsection">
+        <h1>ROBOTICS</h1>
+        <hr>
+        <div class="pcontainer">
+            <p>Robotics is an interdisciplinary branch of engineering and science
+                that includes mechanical engineering, electrical engineering, computer science, and others.
+                Robotics deals with the design, construction, operation, and use of robots,
+                as well as computer systems for their control, sensory feedback, and information processing.</p>
+        </div>
+        <div class="pcontainer">
+            <h4>로봇공학(Robotics, 로봇학)은 로봇에 관한 과학이자 기술학이다.<br>
+                로봇공학자는 로봇을 설계, 제조를 하거나 응용 분야를 다루는 일을 한다.<br>
+                로봇학은 전자공학, 역학, 소프트웨어 기계공학 등 관련 학문의 지식을 <br>필요로 하며,
+                여러 유관 분야의 다양한 종류의 지식의 도움을 받는다.<br>
+                Robotics, 이 분야에 종사하는 사람을 로봇공학자라고 부른다.</h4>
+            <br>
+            <br>
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <a href="#thirdsection" class="scroll">Laboratory</a>
+</div>
+
+<div class="Romela-Wrapper">
+    <div class="container-fluid" id="thirdsection">
+        <h1>ROMELA</h1>
+        <hr>
+        <div>
+            <p>The Robotics & Mechanisms Laboratory at UCLA is a facility for graduate and undergraduate robotics research and education with an emphasis on studying humanoid robots and novel mobile robot locomotion strategies.</p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class = "img-wrapper">
+            <div class = "img">
+                <img src="../img/charlie.jpg" alt="Robot called Charli">
+                <p class="text-in-img">Charli</p>
+            </div>
+        </div>
+        <div class = "img-wrapper">
+            <div class="img">
+                <img src="../img/darwin.jpg" alt="Robot called Darwin">
+                <p class="text-in-img">Darwin</p>
+            </div>
+        </div>
+        <div class = "img-wrapper">
+            <div class="img">
+                <img src="../img/mars.jpg" alt="Robot called Mars">
+                <p class="text-in-img">Mars</p>
+            </div>
+        </div>
+    </div>
+    More About Romela<br>
+    Visit thier Websites!<a href="http://www.romela.org/robots/" target="_blank">http://www.romela.org/robots/</a>
+</div>
+<div class="container-fluid">
+    <a href="#mainnav" class="scroll">TOP</a>
+</div>
+<!-- Modal -->
+<div class="modal" id="mymodal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+h2 {
+    font-family: "Noto Sans KR", sans-serif;
+}
+.light {
+    max-width: 60px;
+    border-width: 1.5px;
+    border-color: #4ef46f;
+}
+.follow-btn a {
+    font-size: 1em;
+    color: #fff;
+    background:#11B771;
+    padding: 0.5em 2.5em;
+    display: inline-block;
+    margin-top: 2em;
+    border-radius: 3px 3px;
+}
+.follow-btn a:hover {
+    background:#3B3A3A;
+}
